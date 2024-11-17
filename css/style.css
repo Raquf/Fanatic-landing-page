@@ -43,6 +43,7 @@ h6 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 90px;
   min-height: 100vh;
   position: relative;
 }
@@ -53,17 +54,17 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
   content: "";
-  height: 386px;
+  height: 336px;
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  transform: translateY(48%);
+  transform: translateY(38%);
   z-index: 2;
 }
 
 .header::after {
-  transform: translateY(76%) rotate(180deg);
+  transform: translateY(86%) rotate(180deg);
   z-index: 3;
 }
 
@@ -140,6 +141,70 @@ h6 {
 /* ---------- Main components start ---------- */
 
 /* ---------- "Info" section components start ---------- */
+.info {
+  background-image: url(../images/section/info/info-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.info::before {
+  background-color: #262c27;
+  content: "";
+  height: 160px;
+  /* margin-top: 90px; */
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  transform: translateY(-140px);
+  z-index: 1;
+}
+
+.info__inner {
+}
+
+.info__top {
+  display: flex;
+  gap: 80px;
+}
+
+.info__top-text {
+  color: #fff;
+  font-family: "Comfortaa", sans-serif;
+  padding-top: 245px;
+  width: 290px;
+}
+
+.info__btn {
+}
+
+.popup-btn {
+}
+
+.info__top-img {
+  position: relative;
+  z-index: 6;
+}
+
+.info__specs {
+}
+
+.info__specs-title {
+}
+
+.info__specs-list {
+}
+
+.info__specs-item {
+}
+
+.info__specs-caption {
+}
+
+.info__specs-text {
+}
 /* ---------- "Info" section components finish ---------- */
 
 /* ---------- Main components finish ---------- */
