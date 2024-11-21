@@ -248,9 +248,96 @@ h6 {
 .info__specs-caption {
   width: 190px;
 }
-
-.info__specs-text {
-}
 /* ---------- "Info" section components finish ---------- */
+
+/* ---------- "Buy" section components start ---------- */
+.buy {
+  padding: 150px 0;
+}
+
+.buy__inner {
+  align-items: center;
+  display: flex;
+  gap: 90px;
+}
+
+.buy__content {
+  position: relative;
+  width: 510px;
+}
+
+.buy__title {
+  color: #0093a1;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 60px;
+  line-height: 67px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+.buy__list {
+  margin-bottom: 25px;
+}
+
+.buy__item {
+  margin-bottom: 25px;
+  width: 285px;
+}
+
+.buy__item-title {
+  margin-bottom: 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.buy__item-title:hover {
+  color: #0093a1;
+}
+
+.buy__item-text {
+  font-family: "Comfortaa", sans-serif;
+}
+
+.buy__price {
+  align-items: center;
+  background-image: url(../images/section/buy/Star-price.svg);
+  display: flex;
+  font-size: 35px;
+  font-weight: 700;
+  height: 199px;
+  justify-content: space-between;
+  line-height: 42px;
+  position: absolute;
+  padding-left: 50px;
+  bottom: 130px;
+  right: 0;
+  width: 201px;
+}
+
+.buy__btn {
+  background-color: transparent;
+  border: 2px solid #0093a1;
+  color: #0093a1;
+  cursor: pointer;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 45px;
+  max-width: 484px;
+  padding: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  width: 100%;
+}
+
+.buy__btn:hover {
+  background-color: #b9c400;
+  border-color: #b9c400;
+  color: #000;
+}
+
+/* ---------- "Buy" section components finish ---------- */
 
 /* ---------- Main components finish ---------- */
