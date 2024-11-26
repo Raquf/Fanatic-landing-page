@@ -357,7 +357,7 @@ img {
 }
 
 .technology__top-inner {
-  min-height: 110vh;
+  min-height: 125vh;
   position: relative;
 }
 
@@ -391,12 +391,6 @@ img {
   line-height: 24px;
 }
 
-.gallery {
-}
-
-.gallery__inner {
-}
-
 .gallery__box {
   display: flex;
   gap: 68px;
@@ -416,17 +410,22 @@ img {
   gap: 30px 24px;
   grid-template-columns: 481px 208px;
   grid-template-rows: 432px 300px;
+  margin-bottom: 150px;
+  margin-top: -410px;
+  padding: 72px 31px 52px;
   position: relative;
-  transform: translateY(-50%);
 }
 
-.galery-small::before {
+.gallery-small::before {
   border: 3px solid #262c27;
+  border-radius: 200px 0px 300px;
   content: "";
   position: absolute;
-}
-
-.gallery-small__img {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 5;
 }
 
 .gallery-small__img--first {
@@ -439,12 +438,35 @@ img {
 }
 
 .gallery-large {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 300px 469px 391px;
+  grid-template-rows: 340px 270px 270px;
 }
 
-.gallery-large__img {
+.gallery-large__img-second {
+  border-radius: 0px 500px 0px 0px;
+  grid-column: 2 / -1;
+  justify-self: end;
 }
 
-.gallery-large__text {
+.gallery-large__img-third {
+  border-radius: 0px 0px 150px 0px;
+}
+
+.gallery-large__img-fourth {
+  border-radius: 0px 200px 0px 0px;
+}
+
+.gallery-large__img-fifth {
+  border-radius: 200px 0px 0px 0px;
+}
+
+.gallery-large__img-finally {
+  border-radius: 0px 0px 0px 400px;
+  grid-column: 1 / -1;
+  min-width: 1180px;
+  width: 100%;
 }
 /* ---------- "Technology" section components finish ---------- */
 
