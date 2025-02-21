@@ -476,39 +476,83 @@ img {
 
 /* ---------- Footer  components start ---------- */
 .footer {
+  background-color: #262c27;
+  color: #fff;
+  font-family: "Comfortaa", sans-serif;
+  padding: 100px 0 80px;
 }
 
 .footer__inner {
 }
 
 .footer__top {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer__form {
 }
 
 .footer__title {
+  margin-bottom: 27px;
+}
+
+.footer__form {
+  max-width: 550px;
 }
 
 .footer__form-input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  color: #fff;
+  display: block;
+  margin-bottom: 57px;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.footer__form-input::placeholder {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  opacity: 0.2;
 }
 
 .footer__form-btn {
+  background-color: #fff;
+  border: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  margin-bottom: 110px;
+  padding: 10px 66px;
+  text-transform: uppercase;
 }
 
 .footer__logo {
 }
 
 .footer__social-title {
+  font-weight: 700;
+  margin-bottom: 22px;
 }
 
 .footer__gallery {
+  display: grid;
+  gap: 52px;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 50px;
 }
 
 .footer__gallery-item {
 }
 
 .footer__menu-list {
+  display: flex;
+  font-weight: 700;
+  justify-content: space-between;
 }
 
 .footer__menu-item {
