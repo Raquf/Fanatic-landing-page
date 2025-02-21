@@ -216,6 +216,24 @@ img {
   color: #fff;
   display: block;
   padding-top: 12px;
+  transition: color 0.3s;
+}
+
+.popup-btn:hover circle {
+  stroke: #b9c400;
+}
+
+.popup-btn:hover path {
+  fill: #b9c400;
+}
+
+.popup-btn circle,
+.popup-btn path {
+  transition: 0.3s;
+}
+
+.popup-btn:hover span {
+  color: #0093a1;
 }
 
 .info__top-text--bottom {
@@ -532,6 +550,15 @@ img {
 }
 
 .footer__logo {
+  align-self: flex-start;
+}
+
+.footer__logo path {
+  transition: fill 0.6s;
+}
+
+.footer__logo:hover path {
+  fill: #0093a1;
 }
 
 .footer__social-title {
